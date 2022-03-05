@@ -1,5 +1,6 @@
 # Base
 bash
+bash-completion
 bzip2
 coreutils
 file
