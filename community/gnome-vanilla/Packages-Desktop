@@ -1,0 +1,132 @@
+## Network
+networkmanager
+ntp
+usb_modeswitch              # Optional for modemmanager
+openresolv                  # optional for networkmanager
+
+>extra openssh              # optional for gnome-control-center
+nss-mdns             # optional for avahi; avahi required by gvfs
+
+## Btrfs
+grub-btrfs
+btrfsmaintenance
+
+## Libraries for Sound/Audio/Video
+manjaro-alsa
+manjaro-gstreamer
+manjaro-pipewire
+
+## Fonts
+ttf-dejavu
+ttf-liberation
+noto-fonts                  # default font
+noto-fonts-emoji
+
+>extra ttf-droid
+>extra ttf-inconsolata
+>extra ttf-indic-otf
+>extra noto-fonts-compat
+
+## Themes
+gnome-themes-extra
+qgnomeplatform
+qgnomeplatform-qt6
+
+manjaro-artwork
+manjaro-gdm-branding
+plymouth-theme-manjaro
+grub-theme-manjaro
+
+## Settings packages
+manjaro-base-skel
+manjaro-gnome-settings
+chrome-gnome-shell
+lighter-gnome
+
+## Package management
+flatpak
+
+
+### GNOME group ###
+#-----------------#
+
+# Core Components
+gdm-plymouth
+mutter
+xdg-user-dirs-gtk
+gnome-shell
+gnome-session
+gnome-keyring
+gnome-backgrounds
+gnome-settings-daemon
+power-profiles-daemon       # optional for gnome-control-center
+gnome-user-share            # optional for gnome-control-center
+gnome-shell-extensions
+
+# Other Components
+ibus
+mousetweaks
+xdg-utils
+tracker3-miners
+grilo-plugins
+libappindicator-gtk3
+ffmpegthumbnailer
+
+gvfs
+gvfs-afc
+gvfs-goa                    # optional for gnome-control-center
+gvfs-google                 # optional for gnome-online-accounts
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+
+>extra rygel                # optional for gnome-control-center
+
+gtksourceview-pkgbuild      # syntax highlighting for PKGBUILDs
+
+# Core Apps
+gnome-control-center
+gnome-tweaks
+gnome-software
+gnome-software-packagekit-plugin
+gnome-terminal
+nautilus
+nautilus-admin
+nautilus-bluetooth
+sushi
+
+# Other Apps
+>extra gvim
+>extra baobab
+>extra evince
+>extra geary
+>extra dconf-editor
+>extra gnome-calculator
+>extra gnome-calendar
+>extra gnome-contacts
+>extra gnome-text-editor
+>extra gnome-characters
+>extra gnome-clocks
+>extra gnome-disk-utility
+>extra gnome-font-viewer
+>extra gnome-system-monitor
+>extra gnome-screenshot
+>extra gnome-weather
+>extra gnome-sound-recorder
+>extra gnome-user-docs
+
+>extra file-roller
+>extra p7zip
+>extra unrar
+>extra unace
+>extra lrzip
+>extra squashfs-tools
+
+>extra gthumb
+>extra gparted
+>extra firefox
+>extra gufw
+>extra lollypop
+>extra celluloid
+
