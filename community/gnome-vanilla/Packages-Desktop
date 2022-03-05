@@ -5,7 +5,7 @@ usb_modeswitch              # Optional for modemmanager
 openresolv                  # optional for networkmanager
 
 >extra openssh              # optional for gnome-control-center
-nss-mdns             # optional for avahi; avahi required by gvfs
+nss-mdns                    # optional for avahi; avahi required by gvfs
 
 ## Btrfs
 grub-btrfs
@@ -15,6 +15,9 @@ btrfsmaintenance
 manjaro-alsa
 manjaro-gstreamer
 manjaro-pipewire
+
+pipewire-jack               # use pipewire-jack instead of regular jack
+wireplumber                 # alternative session manager for pipewire
 
 ## Fonts
 ttf-dejavu
@@ -45,6 +48,7 @@ lighter-gnome
 
 ## Package management
 flatpak
+xdg-desktop-portal-gnome   # flatpak requires an xdg-desktop-portal
 
 
 ### GNOME group ###
@@ -92,6 +96,7 @@ gnome-software
 gnome-software-packagekit-plugin
 gnome-terminal
 nautilus
+libnautilus-extension       # use libnautilus-extension instead of any alternatives
 nautilus-admin
 sushi
 
