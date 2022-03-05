@@ -8,3 +8,5 @@ mkinitcpio-nfs-utils
 nbd
 clonezilla
 virtualbox-guest-utils
+
+manjaro-zsh-config
