@@ -24,6 +24,7 @@ ttf-dejavu
 ttf-liberation
 noto-fonts                  # default font
 noto-fonts-emoji
+ttf-nerd-fonts-symbols-mono
 
 >extra ttf-droid
 >extra ttf-inconsolata
