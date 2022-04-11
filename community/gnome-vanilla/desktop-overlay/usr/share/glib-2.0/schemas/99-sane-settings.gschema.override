@@ -33,10 +33,10 @@ name='Terminal'
 [org.gnome.software]
 download-updates=false
 
-[org.gtk.settings]
+[org.gtk.Settings.FileChooser]
 show-hidden=true
 sort-directories-first=true
 
-[org.gtk.gtk4.settings]
+[org.gtk.gtk4.Settings.FileChooser]
 show-hidden=true
 sort-directories-first=true
