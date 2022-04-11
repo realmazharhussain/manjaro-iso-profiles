@@ -42,7 +42,6 @@ grub-theme-manjaro
 
 ## Settings packages
 manjaro-base-skel
-manjaro-gnome-settings
 chrome-gnome-shell
 lighter-gnome
 

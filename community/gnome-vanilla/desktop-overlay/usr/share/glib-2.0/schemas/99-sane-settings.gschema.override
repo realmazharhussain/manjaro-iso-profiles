@@ -1,0 +1,42 @@
+[org.gnome.desktop.interface]
+document-font-name='DejaVu Sans 11'
+font-name='DejaVu Sans 11'
+monospace-font-name='Hack 11'
+show-battery-percentage=true
+
+[org.gnome.desktop.peripherals.touchpad]
+speed=0.35
+tap-to-click=true
+
+[org.gnome.desktop.wm.keybindings]
+begin-resize=['<Super>r', '<Alt>F8']
+panel-run-dialog=['<Super>x', '<Alt>F2']
+show-desktop=['<Super>d']
+toggle-fullscreen=['<Super>f', 'F11']
+
+[org.gnome.desktop.wm.preferences]
+action-middle-click-titlebar='minimize'
+titlebar-font='DejaVu Sans Bold 11'
+
+[org.gnome.nautilus.icon-view]
+default-zoom-level='standard'
+
+[org.gnome.settings-daemon.plugins.media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+mic-mute=['<Primary>AudioMute']
+
+[org.gnome.settings-daemon.plugins.media-keys.custom-keybindings.custom0]
+binding='<Ctrl><Alt>t'
+command='gnome-terminal'
+name='Terminal'
+
+[org.gnome.software]
+download-updates=false
+
+[org.gtk.settings]
+show-hidden=true
+sort-directories-first=true
+
+[org.gtk.gtk4.settings]
+show-hidden=true
+sort-directories-first=true
