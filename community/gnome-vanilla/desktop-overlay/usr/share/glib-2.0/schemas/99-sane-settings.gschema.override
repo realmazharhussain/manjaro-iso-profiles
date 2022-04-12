@@ -13,6 +13,7 @@ begin-resize=['<Super>r', '<Alt>F8']
 panel-run-dialog=['<Super>x', '<Alt>F2']
 show-desktop=['<Super>d']
 toggle-fullscreen=['<Super>f', 'F11']
+close=['<Super>q', '<Alt>F4']
 
 [org.gnome.desktop.wm.preferences]
 action-middle-click-titlebar='minimize'
