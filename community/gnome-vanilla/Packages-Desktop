@@ -94,7 +94,8 @@ gnome-control-center
 gnome-tweaks
 gnome-software
 gnome-software-packagekit-plugin
-gnome-terminal
+#gnome-terminal
+gnome-console
 nautilus
 libnautilus-extension       # use libnautilus-extension instead of any alternatives
 nautilus-admin
