@@ -16,6 +16,9 @@ manjaro-alsa
 manjaro-gstreamer
 manjaro-pipewire
 
+## WebP support
+webp-pixbuf-loader
+
 pipewire-jack               # use pipewire-jack instead of regular jack
 wireplumber                 # alternative session manager for pipewire
 
