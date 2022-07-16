@@ -44,7 +44,7 @@ grub-theme-manjaro
 
 ## Settings packages
 manjaro-base-skel
-chrome-gnome-shell
+gnome-browser-connector
 lighter-gnome
 
 ## Package management
