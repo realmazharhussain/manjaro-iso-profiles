@@ -8,6 +8,9 @@ show-battery-percentage=true
 speed=0.35
 tap-to-click=true
 
+[org.gnome.login-screen]
+logo='/usr/share/icons/manjaro/maia/logo_text_white_48px.png'
+
 [org.gnome.desktop.wm.keybindings]
 begin-resize=['<Super>r', '<Alt>F8']
 panel-run-dialog=['<Super>x', '<Alt>F2']
