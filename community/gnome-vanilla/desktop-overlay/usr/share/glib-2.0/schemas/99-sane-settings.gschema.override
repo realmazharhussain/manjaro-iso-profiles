@@ -23,7 +23,8 @@ action-middle-click-titlebar='minimize'
 titlebar-font='DejaVu Sans Bold 11'
 
 [org.gnome.nautilus.icon-view]
-default-zoom-level='standard'
+#default-zoom-level='standard'
+default-zoom-level='medium'
 
 [org.gnome.settings-daemon.plugins.media-keys]
 custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
