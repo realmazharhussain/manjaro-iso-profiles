@@ -1,7 +1,6 @@
 ## Network
 networkmanager
 ntp
-usb_modeswitch              # Optional for modemmanager
 openresolv                  # optional for networkmanager
 
 >extra openssh              # optional for gnome-control-center
@@ -24,6 +23,7 @@ wireplumber                 # alternative session manager for pipewire
 
 ## Fonts
 ttf-dejavu
+ttf-hack
 ttf-liberation
 noto-fonts                  # default font
 noto-fonts-emoji
@@ -36,6 +36,8 @@ ttf-nerd-fonts-symbols-2048-em-mono
 
 ## Themes
 gnome-themes-extra
+qgnomeplatform-qt5
+qgnomeplatform-qt6
 
 manjaro-icons
 plymouth-theme-manjaro
@@ -55,7 +57,7 @@ xdg-desktop-portal-gnome   # flatpak requires an xdg-desktop-portal
 #-----------------#
 
 # Core Components
-gdm-plymouth
+gdm
 mutter
 xdg-user-dirs-gtk
 gnome-shell
@@ -65,6 +67,8 @@ gnome-backgrounds
 gnome-settings-daemon
 power-profiles-daemon       # optional for gnome-control-center
 gnome-user-share            # optional for gnome-control-center
+malcontent                  # optional for gnome-control-center
+fwupd                       # optional for gnome-software
 gnome-shell-extensions
 
 # Other Components
@@ -105,18 +109,20 @@ sushi
 >extra baobab
 >extra evince
 >extra geary
+>extra endeavour
+>extra seahorse
 >extra dconf-editor
 >extra gnome-calculator
 >extra gnome-calendar
 >extra gnome-contacts
 >extra gnome-text-editor
 >extra gnome-tour
+>extra gnome-firmware
 >extra gnome-characters
 >extra gnome-clocks
 >extra gnome-disk-utility
 >extra gnome-font-viewer
 >extra gnome-system-monitor
->extra gnome-screenshot
 >extra gnome-weather
 >extra gnome-sound-recorder
 >extra gnome-user-docs
@@ -134,4 +140,3 @@ sushi
 >extra gufw
 >extra lollypop
 >extra totem
-
