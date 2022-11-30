@@ -67,6 +67,7 @@ gnome-backgrounds
 gnome-settings-daemon
 power-profiles-daemon       # optional for gnome-control-center
 gnome-user-share            # optional for gnome-control-center
+malcontent                  # optional for gnome-control-center
 gnome-shell-extensions
 
 # Other Components
