@@ -1,7 +1,6 @@
 ## Network
 networkmanager
 ntp
-usb_modeswitch              # Optional for modemmanager
 openresolv                  # optional for networkmanager
 
 >extra openssh              # optional for gnome-control-center
