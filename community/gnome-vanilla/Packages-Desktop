@@ -23,6 +23,7 @@ wireplumber                 # alternative session manager for pipewire
 
 ## Fonts
 ttf-dejavu
+ttf-hack
 ttf-liberation
 noto-fonts                  # default font
 noto-fonts-emoji
