@@ -123,7 +123,6 @@ sushi
 >extra gnome-disk-utility
 >extra gnome-font-viewer
 >extra gnome-system-monitor
->extra gnome-screenshot
 >extra gnome-weather
 >extra gnome-sound-recorder
 >extra gnome-user-docs
@@ -141,4 +140,3 @@ sushi
 >extra gufw
 >extra lollypop
 >extra totem
-
