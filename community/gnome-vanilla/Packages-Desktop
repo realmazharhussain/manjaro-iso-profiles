@@ -57,7 +57,7 @@ xdg-desktop-portal-gnome   # flatpak requires an xdg-desktop-portal
 #-----------------#
 
 # Core Components
-gdm-plymouth
+gdm
 mutter
 xdg-user-dirs-gtk
 gnome-shell
