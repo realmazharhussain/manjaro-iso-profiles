@@ -36,6 +36,8 @@ ttf-nerd-fonts-symbols-2048-em-mono
 
 ## Themes
 gnome-themes-extra
+qgnomeplatform-qt5
+qgnomeplatform-qt6
 
 manjaro-icons
 plymouth-theme-manjaro
