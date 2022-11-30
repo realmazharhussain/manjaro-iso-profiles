@@ -4,4 +4,4 @@
 # Syntax: simple "KEY=VAL" pairs on separate lines
 #
 
-EDITOR=nano
+EDITOR=/usr/bin/nano
