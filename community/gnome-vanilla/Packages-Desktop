@@ -46,7 +46,6 @@ grub-theme-manjaro
 ## Settings packages
 manjaro-base-skel
 gnome-browser-connector
-lighter-gnome
 
 ## Package management
 flatpak
