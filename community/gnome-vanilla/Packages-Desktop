@@ -9,6 +9,7 @@ nss-mdns                    # optional for avahi; avahi required by gvfs
 ## Btrfs
 grub-btrfs
 btrfsmaintenance
+btrfs-assistant
 
 ## Libraries for Sound/Audio/Video
 manjaro-alsa
