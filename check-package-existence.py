@@ -2,7 +2,7 @@
 from subprocess import run
 from sys import stderr
 
-KERNEL = 'linux515'
+KERNEL = 'linux61'
 
 try:
     for filename in ['community/gnome-vanilla/Packages-Root',
